@@ -3,7 +3,6 @@ new_list = []
 reoid = []
 for i in range(len(ids)):
     new_list += ids[i][1]
-n= new_list[0]
 for i in range(len(new_list)):
     if new_list[i] not in reoid:
         reoid.append(new_list[i])
